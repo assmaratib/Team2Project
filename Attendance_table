@@ -1,0 +1,9 @@
+CREATE TABLE Attendance(
+Attendance_ID INTEGER auto_increment PRIMARY KEY,
+Student_ID INTEGER,
+Teacher_ID INTEGER,
+Class_ID INTEGER,
+Date_attendance DATE/TIME,
+Attendance_status BOOLEAN,
+Daily_notes VARCHAR(255)
+)
